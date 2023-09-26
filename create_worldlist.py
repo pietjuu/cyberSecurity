@@ -1,6 +1,7 @@
 # TODO : create function for md5
 # TODO : create function for sha256
 # TODO : implement sha256
+# TODO : implement that user can make every wordlist he wants
 
 import hashlib
 
