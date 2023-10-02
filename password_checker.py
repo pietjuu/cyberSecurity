@@ -13,7 +13,7 @@ sha256_hash = hashlib.sha256(password.encode()).hexdigest()
 print(f"SHA-256 Hash: {sha256_hash}")
 
 # Path to a dictionary file containing potential passwords
-dictionary_file = "passwords.txt"
+dictionary_file = "wordlist/wordlist.txt"
 
 
 def crack_password(hash_to_crack, dictionary_file):
@@ -33,3 +33,7 @@ def crack_password(hash_to_crack, dictionary_file):
 
 result_md5 = crack_password(md5_hash, dictionary_file)
 result_sha256 = crack_password(sha256_hash, dictionary_file)
+
+
+print(result_md5)
+print(result_sha256)

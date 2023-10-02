@@ -13,7 +13,7 @@ for i in Lines:
     md5hash = hashlib.md5(i.rstrip().encode())
     print(i.rstrip())
     print(md5hash.hexdigest())
-#    file2.write(i)
+    #    file2.write(i)
     file2.write(md5hash.hexdigest())
     file2.write("\n")
 file2.close()
