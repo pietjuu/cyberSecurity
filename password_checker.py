@@ -33,4 +33,3 @@ def crack_password(hash_to_crack, dictionary_file):
 
 result_md5 = crack_password(md5_hash, dictionary_file)
 result_sha256 = crack_password(sha256_hash, dictionary_file)
-
